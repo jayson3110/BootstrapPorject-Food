@@ -1,0 +1,177 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap');
+
+
+
+
+body {
+  font-family: "Karma", sans-serif;
+  color: black;
+}
+
+hr {
+  width: 80%
+}
+
+
+
+/*style Menu*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: none;
+  cursor: pointer;
+ }
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; 
+  
+}
+
+.sidenav a:hover {
+  color: #D2D2D2;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*HeaderText*/
+.styleTextHeader {
+  margin-bottom: 110px;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.topnav h1 {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+
+
+.topnav-left span {
+  position: absolute;
+  top: 2.3%;
+  left: 2.5%;
+  cursor: pointer;
+
+}
+
+
+.topnav-centered h1 {
+  float: none;
+  position: absolute;
+  top: 2%;
+  left: 45%;
+  font-size: 28px;
+
+
+}
+
+.topnav-right h1 {
+  float: right;
+  position: absolute;
+  left:91%;
+  top: 2%;
+  font-size: 28px;
+}
+
+/*GRID
+*/
+.imageStyle {
+  text-align: center;
+}
+
+.imageStyle img {
+  width: 95%;
+
+}
+
+.imageStyle h1 {
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: bold;
+
+}
+.imageStyle p {
+  font-size: 14px;
+}
+
+
+/*Pagination*/
+
+.Pagination  {
+  margin-top: 34px;
+  margin-bottom: 60px;  
+
+}
+
+/*Introduction*/
+
+.introdution {
+   margin-bottom: 70px
+}
+.headerIntro p {
+  margin-top: 60px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+
+.bodyIntro {
+  font-weight: 500;
+
+}
+
+
+/*Footer*/
+
+.footer {
+  padding-right: 200px;
+  padding-left: 60px;
+}
+
+.footerForBlog{
+  margin-left: -100px;
+}
+
+.imgeBlog img  {
+   width: 20%
+}
+.rightBlog {
+  position: absolute;
+  left: 80px;
+  top: 40px;
+}
+
+.rightAgain {
+  position: absolute;
+  left: 80px;
+  top: 120px;
+}
